@@ -1,0 +1,66 @@
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Respond with a control measure for aphid infestation
+  steps:
+  - intent: aphid_control
+  - action: utter_aphid_control
+
+- rule: Respond with a solution for coconut flower drop issue
+  steps:
+  - intent: coconut_flower_drop_control
+  - action: utter_coconut_flower_drop_control
+
+- rule: Provide guidance on Kisan Credit Card loan
+  steps:
+  - intent: kisan_credit_card_loan
+  - action: utter_kisan_credit_card_loan
+
+- rule: Guide on obtaining early ahu rice variety
+  steps:
+  - intent: early_ahu_rice_source
+  - action: utter_early_ahu_rice_source
+
+- rule: Suggest remedy for chilli fruit rot
+  steps:
+  - intent: chilli_fruit_rot_remedy
+  - action: utter_chilli_fruit_rot_remedy
+
+- rule: Recommend training for biomanure preparation
+  steps:
+  - intent: training_for_biomanure_preparation
+  - action: utter_training_for_biomanure_preparation
+
+- rule: Provide tips for increasing milk production in cow
+  steps:
+  - intent: milk_production_in_cow
+  - action: utter_milk_production_in_cow
+
+- rule: Advise on potato preservation method
+  steps:
+  - intent: potato_preservation_method
+  - action: utter_potato_preservation_method
+
+- rule: Recommend the suitable age for goat castration
+  steps:
+  - intent: goat_castration_age
+  - action: utter_goat_castration_age
+
+- rule: Respond with smart Irrigation System details
+  steps:
+  - intent: smart_irrigation
+  - action: utter_smart_irrigation
+
+- rule: Provide information on smart Crop Monitoring solution
+  steps:
+  - intent: crop_monitoring
+  - action: utter_crop_monitoring
+
+- rule: Explain the Soil Health Analysis Tools
+  steps:
+  - intent: soil_health
+  - action: utter_soil_health

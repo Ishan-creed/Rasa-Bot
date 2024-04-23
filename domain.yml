@@ -1,0 +1,85 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - aphid_control
+  - coconut_flower_drop_control
+  - kisan_credit_card_loan
+  - early_ahu_rice_source
+  - chilli_fruit_rot_remedy
+  - training_for_biomanure_preparation
+  - milk_production_in_cow
+  - potato_preservation_method
+  - goat_castration_age
+  - smart_irrigation
+  - crop_monitoring
+  - soil_health
+
+responses:
+  utter_greet:
+  - text: "Hey! I am Sensegrass Bot, I am here to help you out on all your farming related queries"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+
+  utter_aphid_control:
+  - text: "To control aphid infestation in mustard crops, it is suggested to spray rogor@2ml/lit in the evening."
+
+  utter_coconut_flower_drop_control:
+  - text: "To control flower drop problem in coconut plants, it is recommended to apply fertilizer in the recommended dose like urea-600gm, ssp-1kg, mop-700gm, borax-25gm twice a year (March/April and September/October) followed by trench method. Additionally, spray planofix@1teaspoonful per 20-25 liter of water."
+
+  utter_kisan_credit_card_loan:
+  - text: "To avail a Kisan Credit Card loan for your sali crop, it is suggested to consult with the officer-marketing and recovery (rural) at the SBI local branch for details."
+
+  utter_early_ahu_rice_source:
+  - text: "You can get early ahu rice variety from ATIC, Jorhat, AAU campus through parcel or direct taking."
+
+  utter_chilli_fruit_rot_remedy:
+  - text: "To control rotting problem in chilli fruits, it is recommended to apply mancozeb@2.5 gram/liter of water."
+
+  utter_training_for_biomanure_preparation:
+  - text: "To learn preparation of biomanure, you can approach the district agricultural officer or ATIC, Jorhat, PH (0376)2310240."
+
+  utter_milk_production_in_cow:
+  - text: "To increase milk production in your cow, provide mineral mixture like Ranmix Total, Milkmin, Gwala etc. at recommended dose along with feed. Also, feed high proteinaceous green fodder like cowpea, berseem, lucerne etc."
+  - text: "- उचित मात्रा में रैनमिक्स टोटल, मिल्कमिन, ग्वाला आदि जैसे खनिज मिश्रण प्रदान करने की सलाह दी गई। साथ ही, काउपी, बरसीम, ल्यूसर्न आदि जैसे उच्च प्रोटीनवाली हरी चारा का भोजन कराने की सलाह दी गई।"
+
+  utter_potato_preservation_method:
+  - text: "To preserve potato tubers to be sown after 7-8 months, dip the selected tubers in a solution of 30 gram boric acid and 1 litre of water for 30 minutes. After that, spread the tubers thinly in shade and examine them for rotten ones, spraying malathion 5 percent dust powder on affected tubers."
+
+  utter_goat_castration_age:
+  - text: "It is suggested to castrate goats within 1-1 and 1/2 months of age."
+
+  utter_smart_irrigation:
+  - text: "A smart irrigation system is an automated watering system that utilizes technology to efficiently manage and control the watering of plants, lawns, or crops. Unlike traditional irrigation systems that operate on preset schedules or manual activation, smart irrigation systems use sensors, weather data, and sometimes even artificial intelligence to optimize watering schedules based on factors such as soil moisture levels, weather forecasts, plant type, and environmental conditions."
+  
+  utter_crop_monitoring:
+  - text: "Smart crop monitoring refers to the use of advanced technologies such as sensors, drones, satellites, and data analytics to monitor and manage agricultural crops more efficiently and effectively. It involves collecting, analyzing, and interpreting data related to crop health, growth, and environmental conditions to make informed decisions and optimize crop yields."
+  
+  utter_soil_health:
+  - text: "Smart soil health monitoring tools are advanced technologies and techniques used to assess and manage soil health in agricultural fields. These tools help farmers understand the current condition of their soil, identify potential issues, and implement strategies to improve soil quality and productivity."
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

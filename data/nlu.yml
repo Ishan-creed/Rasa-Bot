@@ -1,0 +1,164 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - नमस्ते
+    - नमस्कार
+    - हाय
+    - नमस्ते दोस्त
+    - सुप्रभात
+    - शुभ संध्या
+    - मोइन
+    - नमस्कार आपको
+    - चलो चलते हैं
+    - हेय दोस्त
+    - सुप्रभात
+    - शुभ संध्या
+    - शुभ अपराह्न
+
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - अलविदा
+    - गुड बाय
+    - फिर मिलेंगे
+    - शुभ रात्रि
+    - बाद में मिलते हैं
+    - खुदा हाफिज़
+    - दिन की शुभकामनाएं
+    - फिर मिलते हैं
+    - बाय बाय
+    - बाद में मिलते हैं
+    
+
+
+- intent: aphid_control
+  examples: |
+    - What's the control measure for aphid infestation in mustard crops?
+    - How do I control aphid infestation in my mustard crops?
+    - Can you suggest a control measure for aphids in mustard crops?
+    - सरसों फसल में एफिड संक्रमण के नियंत्रण के लिए क्या उपाय हैं?
+    - मेरी सरसों फसल में एफिड संक्रमण को कैसे नियंत्रित करूँ?
+    - सरसों की फसल में एफिड की रोकथाम के लिए क्या सुझाव हैं?
+
+- intent: coconut_flower_drop_control
+  examples: | 
+    - How can I control flower drop problem in my coconut plant?
+    - What's the remedy for flower drop issue in coconut plants?
+    - Can you suggest a solution for flower drop problem in coconut trees?
+    - मेरे नारियल के पौधे में फूलों का गिरने की समस्या को कैसे नियंत्रित किया जा सकता है?
+    - नारियल के पौधों में फूल गिरने की समस्या के लिए उपाय क्या है?
+    - क्या आप नारियल के पेड़ों में फूल गिरने की समस्या के लिए एक समाधान सुझा सकते हैं?
+
+# Add more intents and examples for other control measures...
+- intent: kisan_credit_card_loan
+  examples: |
+    - How can I avail a Kisan Credit Card loan for my sali crop?
+    - What's the process to get a Kisan Credit Card loan for sali crop?
+    - Can you guide me on getting a Kisan Credit Card loan for my agricultural needs?
+    - मेरे साली फसल के लिए किसान क्रेडिट कार्ड ऋण कैसे प्राप्त कर सकता हूं?
+    - साली फसल के लिए किसान क्रेडिट कार्ड ऋण प्राप्त करने की प्रक्रिया क्या है?
+    - क्या आप मुझे अपने कृषि आवश्यकताओं के लिए किसान क्रेडिट कार्ड ऋण प्राप्त करने का मार्गदर्शन कर सकते हैं?
+
+- intent: early_ahu_rice_source
+  examples: |
+    - Where can I get early ahu rice variety from?
+    - What's the source for early ahu rice variety?
+    - Can you tell me where I can find early ahu rice variety?
+    - मुझे जल्दी आहू धान जाति कहाँ से मिलेगी?
+    - जल्दी आहू धान जाति का स्रोत क्या है?
+    - क्या आप मुझे बता सकते हैं कि मैं कहाँ से जल्दी आहू धान जाति पा सकता हूँ?
+
+# Add more intents and examples for the remaining control measures...
+
+- intent: chilli_fruit_rot_remedy
+  examples: |
+    - My chilli fruits are suffering from rotting problem, what is the remedy measure?
+    - How can I control fruit rot in my chilli plants?
+    - What's the solution for rotting problem in chilli fruits?
+    - मेरे मिर्च के फलों में रोगाणु संक्रमण की समस्या है, इसका उपाय क्या है?
+    - मिर्च के पौधों में फलों का रोटिंग कैसे नियंत्रित करूँ?
+    - मिर्च के फलों की रोटिंग समस्या के लिए समाधान क्या है?
+
+# You can continue adding more intents and examples for other queries.
+- intent: training_for_biomanure_preparation
+  examples: |
+    - Where can I get training for preparation of biomanure?
+    - Is there any training available for making biomanure?
+    - Can you suggest where I can learn to prepare biomanure?
+    - बायोमैन्युअर तैयारी के लिए मुझे प्रशिक्षण कहाँ मिलेगा?
+    - क्या बायोमैन्युअर तैयारी के लिए कोई प्रशिक्षण उपलब्ध है?
+    - क्या आप मुझे बायोमैन्युअर तैयारी करने के लिए कहाँ सीख सकते हैं?
+
+- intent: milk_production_in_cow
+  examples: |
+    - How can I increase milk production in my cow?
+    - My cow's milk production is low, what can I do?
+    - What measures should I take to improve milk production in my cow?
+    - मैं अपनी गाय में दूध उत्पादन कैसे बढ़ा सकता हूँ?
+    - मेरी गाय का दूध उत्पादन कम है, मैं क्या करूँ?
+    - मेरी गाय के दूध उत्पादन को बढ़ाने के लिए कौन-कौन से उपाय हैं?
+# Add more intents and examples for the remaining queries...
+
+- intent: potato_preservation_method
+  examples: |
+    - How should I preserve potato tubers to be sown after 7-8 months?
+    - What's the best method to store potato seeds for future sowing?
+    - Can you suggest a preservation method for potato tubers before planting?
+    - मैं कैसे आलू ट्यूबर को 7-8 महीने के बाद बोने के लिए संरक्षित कर सकता हूँ?
+    - भविष्य में बोने के लिए आलू बीज को संरक्षित करने का सर्वोत्तम तरीका क्या है?
+    - क्या आप आलू ट्यूबर को बोने से पहले संरक्षित करने के लिए एक संरक्षण विधि सुझा सकते हैं?
+    
+- intent: goat_castration_age
+  examples: |
+    - At what age should I castrate my goat?
+    - What is the suitable age for castration of goats?
+    - When is the right time to castrate a goat?
+    - मेरे बकरी को किस आयु में निर्लज्ज करना चाहिए?
+    - बकरी का निर्लज्ज करने के लिए उपयुक्त आयु क्या है?
+    - बकरी का निर्लज्ज करने का सही समय क्या है?
+
+- intent: smart_irrigation
+  examples: | 
+    - What is our smart Irrigation System?
+    - How does our smart Irrigations System work?
+    - Explain the smart Irrigations System.
+
+- intent: crop_monitoring
+  examples: |
+    - What is our smart Crop Monitoring solution?
+    - How does our smart Crop Monitoring solution work?
+    - Explain the smart Crop Monitoring solution.
+
+- intent: soil_health
+  examples: |
+    - What is our Soil Health Analysis Tools?
+    - How does our Soil Health Analysis Tools work?
+    - Explain the Soil Health Analysis Tools.  
+
+
+# You can continue adding more intents and examples for other queries.
